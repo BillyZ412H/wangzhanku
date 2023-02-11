@@ -54,26 +54,13 @@
 			background-color: #01af63;
 			color: #FFFFFF;
 		}
-		.search_engine:hover .search_engine_list{
+		.search_engine:hover .search_engine_list, .email:hover .email_list, .map:hover .map_list{
 			display: block;
 		}
-		.search_engine_list a:hover{
-			background-color: rgb(255, 255, 255);
+		.search_engine_list a:hover, .email_list a:hover, .map_list a:hover{
+			background-color: rgb(200, 200, 200);
 		}
-		
-		.email:hover .email_list{
-			display: block;
-		}
-		.email_list a:hover{
-			background-color: rgb(255, 255, 255);
-		}
-		.map:hover .map_list{
-			display: block;
-		}
-		.map_list a:hover{
-			background-color: rgb(255, 255, 255);
-		}
-		body div{
+		.search_engine, .email, .map{
 			background-color: #333;
 			padding: 14px 16px;
 			display: inline-block;
@@ -81,15 +68,15 @@
 		.search_engine:hover, .email:hover, .map:hover{
 			background-color: rgb(255, 255, 255);
 		}
-		body div div{
+		.search_engine_list, .email_list, .map_list{
 			display: none;
 			position: relative;
 			left: -16px;
 			top: 10px;
 			color: rgb(50, 50, 50);
-			background-color: #333;
+			background-color: rgb(255, 255, 255);
 		}
-		body div div a{
+		.search_engine_list a, .email_list a, .map_list a{
 			display: block;
 			margin: 0;
 			padding: 10px 10px;
